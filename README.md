@@ -28,7 +28,7 @@ Start a single node (just for testing; use at least three for fault tollerance):
 
 and use the HTTP API to get new IDs:
 
-    bender:~ phil$ xcurl -D - http://localhost:8080/next
+    bender:~ phil$ curl -D - http://localhost:8080/next
     HTTP/1.1 200 OK
     Date: Tue, 27 Oct 2015 23:50:16 GMT
     Content-Length: 2
