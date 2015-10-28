@@ -1,0 +1,9 @@
+# single-node config
+
+addr = "127.0.0.1:8080"
+
+[raft]
+addr = "127.0.0.1:6346"
+data_dir = "~/goflake-data"
+cluster = ["127.0.0.1:6346"]
+cluster_state = "new"
