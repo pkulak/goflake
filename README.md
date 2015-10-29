@@ -3,7 +3,7 @@
 Goflake is a distributed id generation service that tries its best to hand out
 ids that don't look like they came from a distributed id generation service.
 
-## Gaurantees
+## Guarantees
 
 * Keys start at zero.
 * Every key is unique.
@@ -20,9 +20,9 @@ ids that don't look like they came from a distributed id generation service.
 * Coordination once per second per node (though this can go up for highly
   variable loads).
 
-## Useage
+## Usage
 
-Start a single node (just for testing; use at least three for fault tollerance):
+Start a single node (just for testing; use at least three for fault tolerance):
 
     goflake --config goflake.toml
 
